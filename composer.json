@@ -26,6 +26,9 @@
         "elasticsearch/elasticsearch": "Required to use the Elasticsearch engine (^5.0)."
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        },
         "laravel": {
             "providers": [
                 "ScoutEngines\\Elasticsearch\\ElasticsearchProvider"
